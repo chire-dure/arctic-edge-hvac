@@ -8,9 +8,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
 <style>
-html {
-scroll-behavior: smooth;
-}
+  html {
+    scroll-behavior: smooth !important;
+  }
+  /* This hides the CSS instructions from showing up as text on your screen */
 </style>
   /* ===================== DESIGN TOKENS ===================== */
   :root {
@@ -1306,28 +1307,24 @@ scroll-behavior: smooth;
           <div class="pricing-feature"><span class="check">✓</span> 20% Discount on All Parts</div>
           <div class="pricing-feature"><span class="check">✓</span> Priority Same-Day Dispatch</div>
           <div class="pricing-feature"><span class="check">✓</span> Annual System Efficiency Report</div>
-        </div>
-<section id="service-request" style="background: #0a0f1e; padding: 60px 20px; text-align: center; color: white; border-top: 1px solid #4D7CFF;">
-  <div style="max-width: 500px; margin: 0 auto; background: rgba(255,255,255,0.05); padding: 35px; border-radius: 20px; border: 1px solid rgba(77, 124, 255, 0.3); backdrop-filter: blur(10px);">
-    <h2 style="color: #4D7CFF; font-size: 28px; margin-bottom: 10px;">Initialize Consultation</h2>
-    <p style="color: rgba(255,255,255,0.7); margin-bottom: 25px;">Enter your details for priority scheduling in Mandaluyong.</p>
+<section id="service-request" style="display: block; background: #0a101f; padding: 80px 20px; color: white; text-align: center;">
+  <div style="max-width: 450px; margin: 0 auto; border: 2px solid #4D7CFF; border-radius: 15px; padding: 40px; background: #161b22;">
+    <h2 style="margin: 0 0 10px 0; color: #4D7CFF;">Initialize Consultation</h2>
+    <p style="margin-bottom: 30px; opacity: 0.8;">Priority response for Mandaluyong clients.</p>
     
-    <form action="https://formspree.io/f/xreywbqg" method="POST">
-      <div style="text-align: left; margin-bottom: 15px;">
-        <label style="display: block; color: #4D7CFF; font-size: 12px; text-transform: uppercase; margin-bottom: 5px;">Full Name</label>
-        <input type="text" name="name" placeholder="Juan Dela Cruz" required style="width: 100%; padding: 12px; background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; color: white;">
-      </div>
-
-      <div style="text-align: left; margin-bottom: 20px;">
-        <label style="display: block; color: #4D7CFF; font-size: 12px; text-transform: uppercase; margin-bottom: 5px;">Phone Number</label>
-        <input type="tel" name="phone" placeholder="0917 XXX XXXX" required style="width: 100%; padding: 12px; background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; color: white;">
-      </div>
-
-      <button type="submit" style="width: 100%; background: #4D7CFF; color: white; padding: 16px; border: none; border-radius: 10px; font-weight: bold; cursor: pointer; text-transform: uppercase; letter-spacing: 1px;">
-        Send Service Request
+    <form action="https://formspree.io/f/xreywbqg" method="POST" style="text-align: left;">
+      <label style="font-size: 12px; color: #4D7CFF; font-weight: bold;">FULL NAME</label>
+      <input type="text" name="name" required style="width: 100%; padding: 12px; margin: 8px 0 20px 0; border-radius: 5px; border: 1px solid #30363d; background: #0d1117; color: white;">
+      
+      <label style="font-size: 12px; color: #4D7CFF; font-weight: bold;">PHONE NUMBER</label>
+      <input type="tel" name="phone" required style="width: 100%; padding: 12px; margin: 8px 0 25px 0; border-radius: 5px; border: 1px solid #30363d; background: #0d1117; color: white;">
+      
+      <button type="submit" style="width: 100%; padding: 15px; background: #4D7CFF; color: white; border: none; border-radius: 5px; font-weight: bold; cursor: pointer;">
+        SEND REQUEST
       </button>
     </form>
   </div>
+</section>
 </section>
   <p style="text-align: center; font-size: 11px; color: rgba(255,255,255,0.4); margin-top: 15px;">Secure 256-bit Encrypted Submission</p>
 </div>
