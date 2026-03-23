@@ -1,0 +1,5 @@
+<body style="background:#0a0f1e; color:white; display:flex; flex-direction:column; align-items:center; justify-content:center; height:100vh; font-family:sans-serif;">
+  <h1 style="color:#4D7CFF;">Request Received!</h1>
+  <p>Our Mandaluyong team will contact you within the hour.</p>
+  <a href="index.html" style="color:#4D7CFF; text-decoration:none; border:1px solid #4D7CFF; padding:10px 20px; border-radius:5px;">Back to Home</a>
+</body>
